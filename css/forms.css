@@ -10,7 +10,7 @@ form {
   font-weight: bold;
 }
 input {
-  margin:.375em 0;
+margin: 2px 0;
 }
 input.title {
   font-size:1.5em;
@@ -31,7 +31,7 @@ select {
 }
 textarea:focus {
   border:1px solid #FC0;
-  background:#FFF;
+  background:transparent !important;
 }
 input.text,
 input.title {
@@ -39,7 +39,7 @@ input.title {
 }
 input.form-text,
 textarea {
-  border:1px solid #CCC;
+  border:1px solid #fff;
   height:auto;
   padding:.1875em;
 }

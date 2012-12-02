@@ -5,5 +5,272 @@
 
 /* Debug style so you know its working. */
 #page {
-  background: yellow;
+	background-color: #FFF;
+}
+
+div.container {
+position: relative;
+width: 1000px !important;
+margin: 0 auto;
+}
+
+input.custom-search-default-value {
+color: #484848 !important;
+}
+
+#primary-menu > .menu{
+	margin-left: 290px !important;
+	padding-top: 7px !important;
+	font-size: 14px;
+	text-transform:uppercase !important;
+}
+
+#block-views-top_banner_slideshow-block_1, #block-views-top_banner_slideshow-block_1 .block{
+	margin-bottom:-52px !important;
+	padding:0px !important;
+}
+#block-views-uc_products_tab-block_1{
+	margin: 0px auto;
+	width: 982px;
+	/*background-image: url(../../images/package-tabs.png);*/
+	background-repeat: no-repeat;
+	background-position: left top;
+	background-color: transparent;
+	position: relative;
+}
+#block-views-uc_products_tab-block_1 .views-row{
+	display: inline-block !important;
+	float:left !important;
+	width: 188px;
+	margin-right: 8px;
+	background-image: url(../../images/tab-content-bg.png);
+	overflow: hidden;
+	/*height: 359px;*/
+	border: 1px solid #FFF;
+}
+
+#block-views-uc_products_tab-block_1 .views-row-last{
+	margin-right: 0px !important;
+}
+
+#block-views-uc_products_tab-block_1 .views-field-title{
+	font-family: Arial;
+	font-size: 15px;
+	font-weight: bold;
+	height: 35px;
+	/*width: 186px !important;*/
+	text-transform: uppercase;
+	color: #FFF;
+	background-color: #999;
+	padding-top: 10px;
+	text-align: center;
+	margin-bottom: 5px;
+	margin-left: 0px !important;
+	background-image: none !important;
+	padding-left: 0px !important;
+}
+
+#block-views-uc_products_tab-block_1 .views-field{
+	padding-left: 20px;
+	background-image: url(../../images/orange-arrows.png);
+	background-repeat: no-repeat;
+	background-position: 10px 6px;
+}
+
+#block-views-uc_products_tab-block_1 .field-item{
+	background-image: url(../../images/orange-arrows.png);
+	background-repeat: no-repeat;
+	background-position: 10px 6px;
+	margin-left: -20px;
+	padding-left: 20px;
+}
+
+#block-views-uc_products_tab-block_1 .views-field-sell-price{
+	height: 30px;
+	width: 188px;
+	background-image: url(../../images/grid-price-bg.png) !important;
+	background-repeat: repeat;
+	background-position: left top;
+	font-size: 22px;
+	color: #FFF;
+	text-align: center;
+	padding-top: 10px;
+	padding-left: 0px;
+	border-top-width: 1px;
+	border-top-style: solid;
+	border-top-color: #FFF;
+	margin-top: 40px;
+}
+
+#block-views-uc_products_tab-block_1 .views-field-view-node{
+	background-color: transparent !important;
+	background-image: url(../../images/grid-price-bg.png) !important;
+	background-repeat: repeat;
+	background-position: left top;
+	font-size: 14px;
+	color: #FFF;
+	text-align: center;
+	width: 188px;
+	padding-top: 0px;
+	padding-right: 0px;
+	padding-bottom: 3px;
+	padding-left: 0px;
+}
+
+#block-views-uc_products_tab-block_1 .views-field-view-node a:link, #block-views-uc_products_tab-block_1 .views-field-view-node a:visited{
+	color: #000;
+	text-decoration: none;
+}
+#block-views-uc_products_tab-block_1 .views-row-1 .views-field-title{
+	background-image: url(../../images/black-tab.png) !important;
+	background-repeat: repeat !important;
+}
+
+#block-views-uc_products_tab-block_1 .views-row-2 .views-field-title{
+	background-image: url(../../images/blue-tab.png) !important;
+	background-repeat: repeat !important;
+}
+
+#block-views-uc_products_tab-block_1 .views-row-3 .views-field-title{
+	background-image: url(../../images/purple-tab.png) !important;
+	background-repeat: repeat !important;
+}
+
+#block-views-uc_products_tab-block_1 .views-row-4 .views-field-title{
+	background-image: url(../../images/deep-purple-tab.png) !important;
+	background-repeat: repeat !important;
+}
+
+#block-views-uc_products_tab-block_1 .views-row-5 .views-field-title{
+	background-image: url(../../images/green-tab.png) !important;
+	background-repeat: repeat !important;
+}
+
+.views-row-2 .views-field-sell-price{
+	margin-top: 22px !important;
+}
+
+.views-row-3 .views-field-sell-price{
+	margin-top: 22px !important;
+}
+
+.views-row-4 .views-field-sell-price{
+	margin-top: 4px !important;
+}
+
+.views-row-5 .views-field-sell-price{
+	margin-top: 4px !important;
+}
+
+#block-menu-menu-package-options{
+	background-image: url(../../images/not-sure.png) !important;
+	background-repeat: no-repeat !important;
+	background-position: left top;
+	height: 48px !important;
+	width: 982px !important;
+	margin-top: 10px !important;
+	margin-left: 8px !important;
+	display: inline-block;
+	margin-bottom: 5px;
+}
+
+#block-menu-menu-package-options .menu{
+	float: right;
+	width: 427px;
+	font-size: 17px;
+	text-decoration: none;
+	text-transform: uppercase;
+	margin-top: 13px;
+}
+
+#block-menu-menu-package-options .menu .first{
+	margin-right: 49px;
+}
+
+#block-menu-menu-package-options .menu a:link,
+#block-menu-menu-package-options .menu a:visited{
+	color: #FFF;
+	text-decoration: none;
+}
+
+#block-views-three_steps-block_1{
+	padding: 0px;
+	clear: both;
+	height: 264px;
+	width: 982px;
+	background-image: url(../../images/start-your-plan-refined.png);
+	background-repeat: no-repeat;
+	background-position: left top;
+	margin-right: 8px;
+	margin-left: 8px;
+}
+
+#block-views-three_steps-block_1 .views-row-first{
+	margin-left: 46px !important;
+}
+
+#block-views-three_steps-block_1 .views-row-2{
+	margin-left: 99px !important;
+}
+
+#block-views-three_steps-block_1 .views-row-3{
+	margin-left: 99px !important;
+}
+
+#block-views-three_steps-block_1 .views-row{
+	display: inline-block;
+	width: 229px;
+	float: left;
+	margin-top: 167px;
+	text-align: center;
+	margin-left: 68px;
+}
+
+#block-views-three_steps-block_1 .views-field-title{
+	font-size: 16px;
+	font-weight: bold;
+	text-transform: uppercase;
+}
+
+.view-payment-options .views-row{
+	display: inline-block;
+	vertical-align: middle;
+}
+
+.view-payment-options{
+	background-image: url(../../images/payment-options-bg.png);
+	background-repeat: no-repeat;
+	background-position: left top;
+	clear: both;
+	height: 147px;
+	width: 983px;
+	margin-bottom: 15px;
+	margin-right: 8px;
+	margin-left: 8px;
+}
+
+.view-payment-options .views-field-image-attach-images{
+	margin-right: 43px;
+	margin-top: 37px;
+}
+
+#footer-region{
+	clear: both;
+	height: 175px;
+	padding: 0px;
+	background-image: url(../../images/tab-content-bg.png);
+	background-repeat: repeat;
+}
+
+#footer-region .block{
+	display: inline-block;
+	height: 176px;
+	width: 188px;
+	background-image: url(../../images/footer-dots.png);
+	background-repeat: no-repeat;
+	background-position: 100% 50%;
+}
+
+#block-block-1 .block-inner{
+	margin-top: 78px;
 }

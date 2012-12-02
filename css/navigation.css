@@ -27,13 +27,16 @@ a:focus {}
 .nav .menu li a {
   display: block;
   white-space: nowrap;
-  padding: 0 10px;
+  padding: 0 10px;  
+	color: #FFF;
+	text-decoration: none;
 }
 .nav ul,
 .nav ul.menu,
 .nav ul.menu li {
   margin: 0;
   padding: 0;
+  padding-right: 10px !important;
 }
 .nav .block {
   margin: 0;
@@ -42,16 +45,29 @@ a:focus {}
 
 /* Primary-links div wrapper */
 #primary-menu {
-  position: relative;
-  z-index: 100;
+	position: relative;
+	z-index: 100;
+	background-image: url(../images/nav_bg.png);
+	background-repeat: repeat-x;
+	background-position: right top;
+	height: 34px;
+	overflow: hidden;
 }
 
 /* Class on the ul */
-.primary-links {}
+.primary-links {
+	margin-left: 280px !important;
+	padding-top: 7px !important;
+}
 
 /* Modify the margin to set tab spacings. */
 .primary-links li {}
-.primary-links li a {}
+.primary-links li a {
+	text-transform: uppercase;
+	text-decoration: none;
+	color: #FFF;
+	font-size: 14px;
+}
 
 /* Set pseudo class styles. */
 .primary-links li a:link {}
@@ -99,7 +115,9 @@ a:focus {}
 .menu,
 .menu ul, 
 .menu ul ul, 
-.menu ul ul ul {}
+.menu ul ul ul {
+	
+	}
 
 /* Menu li styles */
 .menu li {}
@@ -109,7 +127,8 @@ a:focus {}
 .menu li.leaf      {}
 
 .menu li a:link,
-.menu li a:visited {}
+.menu li a:visited {
+}
 .menu li a:hover,
 .menu li a:focus,
 .menu li a:active   {}

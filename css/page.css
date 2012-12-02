@@ -2,7 +2,12 @@
  */
 
 #header {
-  clear: both;
+	clear: both;
+	height: 52px;
+	overflow: hidden;
+	background-image: url(../images/header_bg.png);
+	background-repeat: repeat-x;
+	background-position: right top;
 }
 
 #branding {
@@ -67,18 +72,35 @@ h1#page-title {}
 #feed-icons a.feed-icon {}
 
 /* Search */
-#search-block-form {}
+#search-block-form {
+	float: right;
+	}
 
 /* Wrapper DIVs. */
 #search-block-form > div {}
-#search-block-form .container-inline{}
+#search-block-form .container-inline{
+	position: relative;
+	right: -21px;
+	top:-7px;
+	}
 #edit-search-block-form-1-wrapper {}
 
 #search-block-form label {}
-#search-block-form input {}
+#search-block-form input {
+	background-color: transparent !important;
+	background-image: url(../images/search_bg.png);
+	
+}
 
-#search-block-form .form-submit {}
-#search-block-form .form-text {}
+#search-block-form .form-submit {
+	position: relative;
+	top: 6px;
+	left: -23px;
+	}
+#search-block-form .form-text {
+	background-color: transparent !important;
+	width: 183px;
+}
 
 #edit-search-block-form-1:hover,
 #edit-search-block-form-1:focus {}
